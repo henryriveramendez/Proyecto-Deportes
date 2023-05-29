@@ -104,7 +104,7 @@ void Controlador::agregarEquipoCompetencia( string& nombreCompetencia,  string& 
 		cout << "Competencia no encontrada" << endl;
 	}
 }
-/*
+
 void Controlador::registrarPartido(string& nombreCompetencia,  string& nombreEquipoLocal,  string& nombreEquipoVisitante, int golesLocal, int golesVisitante, int partidoId, int fechaPartido, string resultadoPartido)
 {
 	Competencia competencia(nombreCompetencia);
@@ -127,6 +127,6 @@ void Controlador::registrarPartido(string& nombreCompetencia,  string& nombreEqu
 		cout << "Competencia no encontrada" << endl;
 	}
 
-}*/
+}
 
 

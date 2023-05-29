@@ -71,7 +71,7 @@ int main() {
             cin >> golesLocal;
             cout << "Ingrese los goles del equipo visitante: ";
             cin >> golesVisitante;
-            //controlador.registrarPartido(nombreCompetencia, nombreEquipo, nombreEquipoCompetencia, golesLocal, golesVisitante);
+            controlador.registrarPartido(nombreCompetencia, nombreEquipo, nombreEquipoCompetencia, golesLocal, golesVisitante);
             break;
         case 6:
             cout << "¡Hasta luego!" << endl;
